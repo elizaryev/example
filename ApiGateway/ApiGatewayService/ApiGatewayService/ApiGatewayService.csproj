@@ -31,7 +31,7 @@
     <PackageReference Include="GalleryCommon" Version="1.0.46" />
     <PackageReference Include="MemberClient" Version="1.0.28" />
     <PackageReference Include="MemberCommon" Version="1.10.2" />
-    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.9" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.4" />
     <PackageReference Include="ParserClient" Version="1.0.22" />
     <PackageReference Include="PublishingClient" Version="1.0.84" />
