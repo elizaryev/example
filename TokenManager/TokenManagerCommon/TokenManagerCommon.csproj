@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+    <Description>Alex version 1.0.7
+Vasily version 1.1.0
+Master version 1.10.3</Description>
+    <Version>1.10.3</Version>
+    <Authors>Elizaryev Alexander, Vasily Aleksandrov</Authors>
+    <Company>YouPrint.com.tw</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ApiGatewayCommon" Version="1.0.6" />
+  </ItemGroup>
+
+</Project>

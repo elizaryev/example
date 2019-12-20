@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+	  <PublishWithAspNetCoreTargetManifest>false</PublishWithAspNetCoreTargetManifest>
+  </PropertyGroup>
+
+	<PropertyGroup>
+		<AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+		<GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+	  <DefineConstants>TRACE</DefineConstants>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.Proxy" Version="1.2.2" />
+    <PackageReference Include="Autofac" Version="4.8.1" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.2.2" />
+    <PackageReference Include="AutoMapper" Version="7.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="4.0.0" />
+    <PackageReference Include="DesignClient" Version="1.0.82" />
+    <PackageReference Include="DesignCommon" Version="1.0.72" />
+    <PackageReference Include="Ensure.That" Version="8.0.0" />
+    <PackageReference Include="GalleryClient" Version="1.0.105" />
+    <PackageReference Include="GalleryCommon" Version="1.0.46" />
+    <PackageReference Include="MemberClient" Version="1.0.28" />
+    <PackageReference Include="MemberCommon" Version="1.10.2" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.4" />
+    <PackageReference Include="ParserClient" Version="1.0.22" />
+    <PackageReference Include="PublishingClient" Version="1.0.84" />
+    <PackageReference Include="PublishingCommon" Version="1.0.37" />
+
+    <PackageReference Include="Serilog" Version="2.7.1" />
+    <PackageReference Include="Serilog.Exceptions" Version="4.1.0" />
+    <PackageReference Include="Serilog.Extensions.Logging" Version="2.0.2" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="3.0.0-dev-00112" />
+    <PackageReference Include="Serilog.Sinks.File" Version="4.0.0" />
+    <PackageReference Include="Serilog.Sinks.RollingFile" Version="3.3.0" />
+    <PackageReference Include="TagClient" Version="1.0.5" />
+    <PackageReference Include="TokenManagerClient" Version="1.10.4" />
+    <PackageReference Include="TokenManagerCommon" Version="1.10.3" />
+    <PackageReference Include="Utils" Version="1.0.67" />
+    <PackageReference Include="WdmResourcesClient" Version="1.0.4" />
+    <PackageReference Include="WdmResourcesCommon" Version="1.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiGatewayCommon\ApiGatewayCommon.csproj" />
+  </ItemGroup>
+
+</Project>

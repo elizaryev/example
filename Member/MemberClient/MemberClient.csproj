@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.28</Version>
+    <Description>Alex version 1.0.28
+Vasily version 1.1.1
+Master version 1.10.2</Description>
+    <Authors>Alexander Eliaryev, Vasily Aleksandrov</Authors>
+    <Company>YouPrint.com.tw</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ApiGatewayCommon" Version="1.0.6" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MemberCommon\MemberCommon.csproj" />
+  </ItemGroup>
+
+</Project>
