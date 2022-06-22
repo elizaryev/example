@@ -17,7 +17,7 @@ Alex dev version: 1.0.37</Description>
   <ItemGroup>
     <PackageReference Include="DesignClient" Version="1.0.82" />
     <PackageReference Include="DesignCommon" Version="1.0.72" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
 </Project>
